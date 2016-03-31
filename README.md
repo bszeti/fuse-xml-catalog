@@ -10,7 +10,8 @@ Eclipse plugin to add XML schemas used in Fuse projects to IDE XML Catalog. Sche
 * org.apache.aries.blueprint.core-1.4.4.jar
 * org.apache.aries.blueprint.cm-1.0.6.jar
 
-## CXF jars
+## CXF
+* http://cxf.apache.org/docs/schemas-and-namespaces.html
 * cxf-core-3.0.4.redhat-621084.jar
 
 ## Camel jars

@@ -3,27 +3,108 @@
 <plugin>
   <extension point="org.eclipse.wst.xml.core.catalogContributions">
     <catalogContribution id="default">
+      <!-- Blueprint -->
       <uri name="http://www.osgi.org/xmlns/blueprint/v1.0.0" uri="xsd/blueprint-1.0.0.xsd"/>
-      <uri name="http://aries.apache.org/blueprint/xmlns/blueprint-cm/v1.0.0" uri="xsd/blueprint-cm-1.0.0.xsd"/>
-      <uri name="http://aries.apache.org/blueprint/xmlns/blueprint-cm/v1.1.0" uri="xsd/blueprint-cm-1.1.0.xsd"/>
-      <uri name="http://aries.apache.org/blueprint/xmlns/blueprint-cm/v1.2.0" uri="xsd/blueprint-cm-1.2.0.xsd"/>
-      <uri name="http://aries.apache.org/blueprint/xmlns/blueprint-cm/v1.3.0" uri="xsd/blueprint-cm-1.3.0.xsd"/>
-      <uri name="http://aries.apache.org/blueprint/xmlns/blueprint-ext/v1.0.0" uri="xsd/blueprint-ext.xsd"/>
-      <uri name="http://aries.apache.org/blueprint/xmlns/blueprint-ext/v1.1.0" uri="xsd/blueprint-ext-1.1.xsd"/>
-      <uri name="http://aries.apache.org/blueprint/xmlns/blueprint-ext/v1.2.0" uri="xsd/blueprint-ext-1.2.xsd"/>
-      <uri name="http://aries.apache.org/blueprint/xmlns/blueprint-ext/v1.3.0" uri="xsd/blueprint-ext-1.3.xsd"/>
-      <uri name="http://aries.apache.org/blueprint/xmlns/blueprint-ext/v1.4.0" uri="xsd/blueprint-ext-1.4.xsd"/>
-      <uri name="http://aries.apache.org/blueprint/xmlns/blueprint-ext/v1.5.0" uri="xsd/blueprint-ext-1.5.xsd"/>
+      <system systemId="http://osgi.org/xmlns/blueprint/v1.0.0/blueprint.xsd" uri="xsd/blueprint-1.0.0.xsd"/>
+      <system systemId="https://osgi.org/xmlns/blueprint/v1.0.0/blueprint.xsd" uri="xsd/blueprint-1.0.0.xsd"/>
 
+      <uri name="http://aries.apache.org/blueprint/xmlns/blueprint-cm/v1.0.0" uri="xsd/blueprint-cm-1.0.0.xsd"/>
+      <system systemId="http://aries.apache.org/schemas/blueprint-cm/blueprint-cm-1.0.0.xsd" uri="xsd/blueprint-cm-1.0.0.xsd"/>
+
+      <uri name="http://aries.apache.org/blueprint/xmlns/blueprint-cm/v1.1.0" uri="xsd/blueprint-cm-1.1.0.xsd"/>
+      <system systemId="http://aries.apache.org/schemas/blueprint-cm/blueprint-cm-1.1.0.xsd" uri="xsd/blueprint-cm-1.1.0.xsd"/>
+
+      <uri name="http://aries.apache.org/blueprint/xmlns/blueprint-cm/v1.2.0" uri="xsd/blueprint-cm-1.2.0.xsd"/>
+      <system systemId="http://aries.apache.org/schemas/blueprint-cm/blueprint-cm-1.2.0.xsd" uri="xsd/blueprint-cm-1.2.0.xsd"/>
+
+      <uri name="http://aries.apache.org/blueprint/xmlns/blueprint-cm/v1.3.0" uri="xsd/blueprint-cm-1.3.0.xsd"/>
+      <system systemId="http://aries.apache.org/schemas/blueprint-cm/blueprint-cm-1.3.0.xsd" uri="xsd/blueprint-cm-1.3.0.xsd"/>
+
+      <uri name="http://aries.apache.org/blueprint/xmlns/blueprint-ext/v1.0.0" uri="xsd/blueprint-ext.xsd"/>
+      <system systemId="http://aries.apache.org/schemas/blueprint-ext/blueprint-ext.xsd" uri="xsd/blueprint-ext.xsd"/>
+
+      <uri name="http://aries.apache.org/blueprint/xmlns/blueprint-ext/v1.1.0" uri="xsd/blueprint-ext-1.1.xsd"/>
+      <system systemId="http://aries.apache.org/schemas/blueprint-ext/blueprint-ext-1.1.xsd" uri="xsd/blueprint-ext-1.1.xsd"/>
+
+      <uri name="http://aries.apache.org/blueprint/xmlns/blueprint-ext/v1.2.0" uri="xsd/blueprint-ext-1.2.xsd"/>
+      <system systemId="http://aries.apache.org/schemas/blueprint-ext/blueprint-ext-1.2.xsd" uri="xsd/blueprint-ext-1.2.xsd"/>
+
+      <uri name="http://aries.apache.org/blueprint/xmlns/blueprint-ext/v1.3.0" uri="xsd/blueprint-ext-1.3.xsd"/>
+      <system systemId="http://aries.apache.org/schemas/blueprint-ext/blueprint-ext-1.3.xsd" uri="xsd/blueprint-ext-1.3.xsd"/>
+
+      <uri name="http://aries.apache.org/blueprint/xmlns/blueprint-ext/v1.4.0" uri="xsd/blueprint-ext-1.4.xsd"/>
+      <system systemId="http://aries.apache.org/schemas/blueprint-ext/blueprint-ext-1.4.xsd" uri="xsd/blueprint-ext-1.4.xsd"/>
+
+      <uri name="http://aries.apache.org/blueprint/xmlns/blueprint-ext/v1.5.0" uri="xsd/blueprint-ext-1.5.xsd"/>
+      <system systemId="http://aries.apache.org/schemas/blueprint-ext/blueprint-ext-1.5.xsd" uri="xsd/blueprint-ext-1.5.xsd"/>
+
+      <!-- Camel -->
       <uri name="http://camel.apache.org/schema/blueprint" uri="xsd/camel-blueprint-2.15.1.redhat-621084.xsd"/>
+      <system systemId="http://camel.apache.org/schema/blueprint/camel-blueprint.xsd" uri="xsd/camel-blueprint-2.15.1.redhat-621084.xsd"/>
+
       <uri name="http://camel.apache.org/schema/blueprint/cxf" uri="xsd/camel-cxf-2.15.1.redhat-621084.xsd"/>
+      <system systemId="http://camel.apache.org/schema/cxf/camel-cxf-blueprint.xsd" uri="xsd/camel-cxf-2.15.1.redhat-621084.xsd"/>
 
       <uri name="http://cxf.apache.org/transports/camel/blueprint" uri="xsd/camel-cxf-transport-2.15.1.redhat-621084.xsd"/>
-      <uri name="http://cxf.apache.org/configuration/beans" uri="xsd/cxf-beans-3.0.4.redhat-621084.xsd"/>
+      <system systemId="http://cxf.apache.org/schmemas/blueprint/camel.xsd" uri="xsd/camel-cxf-transport-2.15.1.redhat-621084.xsd"/>
+
+      <!-- CXF Core -->
       <uri name="http://cxf.apache.org/blueprint/core" uri="xsd/cxf-core-blueprint-3.0.4.redhat-621084.xsd"/>
+      <system systemId="http://cxf.apache.org/schemas/blueprint/core.xsd" uri="xsd/cxf-core-blueprint-3.0.4.redhat-621084.xsd"/>
+
+      <uri name="http://cxf.apache.org/configuration/beans" uri="xsd/cxf-beans-3.0.4.redhat-621084.xsd"/>
+      <system systemId="http://cxf.apache.org/schemas/configuration/cxf-beans.xsd" uri="xsd/cxf-beans-3.0.4.redhat-621084.xsd"/>
+
       <uri name="http://cxf.apache.org/bus/extension" uri="xsd/cxf-extension-3.0.4.redhat-621084.xsd"/>
+      <system systemId="http://cxf.apache.org/schemas/configuration/extension.xsd" uri="xsd/cxf-extension-3.0.4.redhat-621084.xsd"/>
+
       <uri name="http://cxf.apache.org/configuration/parameterized-types" uri="xsd/cxf-parameterized-types-3.0.4.redhat-621084.xsd"/>
+      <system systemId="http://cxf.apache.org/schemas/configuration/parameterized-types.xsd" uri="xsd/cxf-parameterized-types-3.0.4.redhat-621084.xsd"/>
+
+      <!-- CXF configuration -->
+      <uri name="http://cxf.apache.org/transports/http/configuration" uri="xsd/cxf-http-conf-3.0.4.redhat-621084.xsd"/>
+      <system systemId="http://cxf.apache.org/schemas/configuration/http-conf.xsd" uri="xsd/cxf-http-conf-3.0.4.redhat-621084.xsd"/>
+      <system systemId="http://cxf.apache.org/schemas/wsdl/http-conf.xsd" uri="xsd/cxf-http-conf-wsdl-3.0.4.redhat-621084.xsd"/>
+
+      <uri name="http://cxf.apache.org/transports/http-jetty/configuration" uri="xsd/cxf-http-jetty-3.0.4.redhat-621084.xsd"/>
+      <system systemId="http://cxf.apache.org/schemas/configuration/http-jetty.xsd" uri="xsd/cxf-http-jetty-3.0.4.redhat-621084.xsd"/>
+
+      <uri name="http://cxf.apache.org/transports/jms" uri="xsd/cxf-jms.xsd"/>
+      <system systemId="http://cxf.apache.org/schemas/configuration/jms.xsd" uri="xsd/cxf-jms.xsd"/>
+      <system systemId="http://cxf.apache.org/schemas/wsdl/jms.xsd" uri="xsd/cxf-jms-wsdl.xsd"/>
+
       <uri name="http://cxf.apache.org/configuration/security" uri="xsd/cxf-security-3.0.4.redhat-621084.xsd"/>
+      <system systemId="http://cxf.apache.org/schemas/configuration/security.xsd" uri="xsd/cxf-security-3.0.4.redhat-621084.xsd"/>
+
+      <uri name="http://cxf.apache.org/bindings/soap" uri="xsd/cxf-soap-3.0.4.redhat-621084.xsd"/>
+      <system systemId="http://cxf.apache.org/schemas/configuration/soap.xsd" uri="xsd/cxf-soap-3.0.4.redhat-621084.xsd"/>
+
+      <uri name="http://cxf.apache.org/blueprint/bindings/soap" uri="xsd/cxf-soap-blueprint-3.0.4.redhat-621084.xsd"/>
+      <system systemId="http://cxf.apache.org/schemas/configuration/blueprint/soap.xsd" uri="xsd/cxf-soap-blueprint-3.0.4.redhat-621084.xsd"/>
+
+      <uri name="http://cxf.apache.org/ws/addressing" uri="xsd/cxf-ws-addr-conf-3.0.4.redhat-621084.xsd"/>
+      <system systemId="http://cxf.apache.org/schemas/ws-addr-conf.xsd" uri="xsd/cxf-ws-addr-conf-3.0.4.redhat-621084.xsd"/>
+
+      <uri name="http://cxf.apache.org/ws/rm/manager" uri="xsd/cxf-wsrm-manager-3.0.4.redhat-621084.xsd"/>
+      <system systemId="http://cxf.apache.org/schemas/configuration/wsrm-manager.xsd" uri="xsd/cxf-wsrm-manager-3.0.4.redhat-621084.xsd"/>
+      <system systemId="http://cxf.apache.org/schemas/configuration/wsrm-manager-types.xsd" uri="xsd/cxf-wsrm-manager-types-3.0.4.redhat-621084.xsd"/>
+
+      <uri name="http://cxf.apache.org/clustering" uri="xsd/cxf-clustering-3.0.4.redhat-621084.xsd"/>
+      <system systemId="http://cxf.apache.org/schemas/clustering.xsd" uri="xsd/cxf-clustering-3.0.4.redhat-621084.xsd"/>
+
+      <uri name="http://cxf.apache.org/blueprint/jaxrs" uri="xsd/cxf-jaxrs-3.0.4.redhat-621084.xsd"/>
+      <system systemId="http://cxf.apache.org/schemas/blueprint/jaxrs.xsd" uri="xsd/cxf-jaxrs-3.0.4.redhat-621084.xsd"/>
+      <system systemId="http://cxf.apache.org/schemas/blueprint/jaxrs-common.xsd" uri="xsd/cxf-jaxrs-common-3.0.4.redhat-621084.xsd"/>
+
+      <uri name="http://cxf.apache.org/blueprint/jaxws" uri="xsd/cxf-jaxws-3.0.4.redhat-621084.xsd"/>
+      <system systemId="http://cxf.apache.org/schemas/blueprint/jaxws.xsd" uri="xsd/cxf-jaxws-3.0.4.redhat-621084.xsd"/>
+
+      <uri name="http://cxf.apache.org/policy" uri="xsd/cxf-policy-3.0.4.redhat-621084.xsd"/>
+      <system systemId="http://cxf.apache.org/schemas/blueprint/policy.xsd" uri="xsd/cxf-policy-3.0.4.redhat-621084.xsd"/>
+
+      <uri name="http://cxf.apache.org/blueprint/simple" uri="xsd/cxf-simple-3.0.4.redhat-621084.xsd"/>
+      <system systemId="http://cxf.apache.org/schemas/blueprint/simple.xsd" uri="xsd/cxf-simple-3.0.4.redhat-621084.xsd"/>
+
     </catalogContribution>
   </extension>
 </plugin>
