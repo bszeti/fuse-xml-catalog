@@ -5,6 +5,8 @@
     <catalogContribution id="default">
       <!-- Blueprint -->
       <uri name="http://www.osgi.org/xmlns/blueprint/v1.0.0" uri="xsd/blueprint-1.0.0.xsd"/>
+      <system systemId="http://www.osgi.org/xmlns/blueprint/v1.0.0/blueprint.xsd" uri="xsd/blueprint-1.0.0.xsd"/>
+      <system systemId="https://www.osgi.org/xmlns/blueprint/v1.0.0/blueprint.xsd" uri="xsd/blueprint-1.0.0.xsd"/>
       <system systemId="http://osgi.org/xmlns/blueprint/v1.0.0/blueprint.xsd" uri="xsd/blueprint-1.0.0.xsd"/>
       <system systemId="https://osgi.org/xmlns/blueprint/v1.0.0/blueprint.xsd" uri="xsd/blueprint-1.0.0.xsd"/>
 
